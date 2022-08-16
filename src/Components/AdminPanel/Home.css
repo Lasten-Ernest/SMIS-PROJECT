@@ -1,0 +1,124 @@
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.0em;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: fit-content;
+    box-shadow: 0 0 20px rgba(10, 10, 10, 0.637);
+}
+
+.table thead tr {
+    background-color: rgb(31, 206, 118);
+    color: #ffffff;
+    text-align: left;
+}
+
+.table thead th, .table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: #c79c9c;
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 5px solid #009879;
+}
+ /* button styling */
+ .btn {
+     border: none;
+     color: white;
+     padding: 5px 8px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 5px;
+     font-size: 16px;
+     margin: 5px;
+     cursor: pointer;
+ }
+
+ .btn-edit {
+    background-color: #11da21;
+    
+}
+.btn-delete {
+    background-color: #e91717;
+}
+.btn-view {
+    background-color: hsl(251, 100%, 36%);
+}
+
+.btn-users {
+    background-color: #e82764;
+    margin-bottom: 10px;
+}
+.btn-home {
+    background-color: blue;
+    color: white;
+}
+.btn-register {
+    background-color: blue;
+    color: white;
+}
+.btn-manage-chats {
+    background-color: blue;
+    color: white;
+}
+.btn-display {
+    background-color: rgb(46, 97, 22);
+    color: white;
+}
+
+.btn-register-st {
+    background-color: #009879;
+}
+
+.btn-register-pa {
+    background-color: hsl(286, 94%, 51%);
+}
+/* Styling the images */
+.main-card{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+}
+
+img{
+    width: '100px';
+    height: '100px'
+}
+
+.card {
+    background: white;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: trnsform 0.5s ease;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.text{
+    font-weight: bold;
+    color: rgb(24, 21, 230);
+    border: 2px solid gold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    
+}
+
+.text:hover {
+    border: 3px solid blue;
+    color: black;
+}
+

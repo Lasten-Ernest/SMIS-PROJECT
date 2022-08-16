@@ -1,2 +1,32 @@
-# SMIS-PROJECT
-This is Student Management Information System developed using ReactJs and Express MySQL database. This project will allow the school management to store students and staff data.
+
+# Project name ***  Student Management Information System (SMIS)
+This project is for managing school information and facilitate communication between parents and their teachers
+
+# To run this project
+run : npm install
+
+# the run : npm start
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3001] to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
