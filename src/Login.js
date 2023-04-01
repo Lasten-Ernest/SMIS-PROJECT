@@ -80,7 +80,7 @@ const Login = () => {
 
                                         <div className="d-flex align-items-center mb-3 pb-1">
                                             <i className="fas fa-cubes fa-2x me-3"></i>
-                                            <span className="h1 fw-bold mb-0"><h2>ERNE-LE HIGH SCHOOL</h2></span>
+                                            <span className="h3 fw-bold mb-0"><h2>GREMA  HIGH  SCHOOL</h2><br/><h5>Student Management Information System</h5></span>
                                         </div>
 
                                         <h5 className="fw-normal mb-3 pb-3">Sign In</h5>
@@ -134,7 +134,7 @@ const Login = () => {
                                                 {message}
                                                 </div>
                                             </div>
-                                         )}
+                                             )}
                                         </div> 
 
                                     </form>
@@ -146,7 +146,6 @@ const Login = () => {
             </div>
         </div>
     </section>
-                   
                 
 
         

@@ -5,7 +5,7 @@ const UserRoles = function(userRoles){
     this.roleId = userRoles.roleId;
 }
 
-//insrt a teacherinto a system
+//insrt a teacherinto a system 
 UserRoles.add = (newUser_roles, result)=> {
     
     sql.query("INSERT INTO user_roles SET ?", newUser_roles, (err, res)=>{
